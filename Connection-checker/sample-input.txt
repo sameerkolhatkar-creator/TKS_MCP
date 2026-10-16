@@ -1,0 +1,8 @@
+# Connection-checker sample input
+# Columns (hash-separated): Source_User#Source_IP#Destination_IP#Destination_Port
+# IP: single (10.17.52.10) or range (10.17.52.10-10.17.52.12)
+# Port: single (22) or comma-separated (1025,1050) or range (1025-1027)
+Source_User#Source_IP#Destination_IP#Destination_Port
+appuser#10.17.52.10#10.17.60.5#22
+appuser#10.17.52.10-10.17.52.12#10.17.60.5#1025,1050
+bluser#10.17.52.20#10.17.60.8-10.17.60.9#1025-1027

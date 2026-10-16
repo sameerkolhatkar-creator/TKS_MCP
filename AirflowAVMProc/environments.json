@@ -1,0 +1,69 @@
+{
+  "default_environment": "TKS_IN08_ENV12",
+  "process_types": [
+    "AGENT",
+    "IMDG_LOCATOR",
+    "IMDG_PWINFO",
+    "IMDG_RTN",
+    "IMDG_SERVER",
+    "HB_IMDG_LOADER",
+    "HB_FETCHER_LAZY",
+    "RCND",
+    "IMDG_VIEWER",
+    "MASD",
+    "AEM_CM",
+    "UHI",
+    "JAP",
+    "APP_SERVER",
+    "AC",
+    "IMDG_DELTA",
+    "IMDG_ALL"
+  ],
+  "environments": {
+    "TKS_IN08_ENV12": {
+      "description": "TKS IN08 env12 Convergent Charging Control (Airflow AVM)",
+      "unix_machine_name": "JUMP",
+      "hop_user_host": "admin@incetks173",
+      "airflow_url": "https://10.77.156.62:1031",
+      "username": "admin",
+      "password": "admin",
+      "oc_namespace": "tks-in08-env12-tc"
+    },
+    "PP3_RT_ADMIN": {
+      "description": "Telkomsel R1 PP3 RT admin (tks-in01-r1pp03-tc)",
+      "unix_machine_name": "PP3_RT_ADMIN",
+      "hop_user_host": "",
+      "airflow_url": "https://10.74.40.23:1031",
+      "username": "airflow-admin-proxy",
+      "password": "airflow-admin-proxy",
+      "oc_namespace": "tks-in01-r1pp03-tc"
+    },
+    "SRB_NFT_ADMIN": {
+      "description": "SRB NFT RT admin (tks-in01-srb-tc)",
+      "unix_machine_name": "SRB_NFT_ADMIN",
+      "hop_user_host": "",
+      "airflow_url": "https://10.76.208.113:1031",
+      "username": "admin",
+      "password": "admin",
+      "oc_namespace": "tks-in01-srb-tc"
+    },
+    "MKS_NFT_ADMIN": {
+      "description": "MKS NFT RT admin (tks-in01-mks-tc)",
+      "unix_machine_name": "MKS_NFT_ADMIN",
+      "hop_user_host": "",
+      "airflow_url": "https://10.114.104.111:1031",
+      "username": "admin",
+      "password": "admin",
+      "oc_namespace": "tks-in01-mks-tc"
+    },
+    "PET_RT_ADMIN": {
+      "description": "PET RT admin (tks-in02-pet1-tc)",
+      "unix_machine_name": "PET_RT_ADMIN",
+      "hop_user_host": "",
+      "airflow_url": "https://10.74.53.239:1031",
+      "username": "admin",
+      "password": "admin",
+      "oc_namespace": "tks-in02-pet1-tc"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "AirflowAVMProc": {
+    "command": "C:\\Users\\sameerk\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+    "args": [
+      "C:\\GenAI\\Cursor\\mcps\\AirflowAVMProc\\server.py"
+    ],
+    "env": {
+      "UNIX_CONFIG_FILE": "C:\\Users\\sameerk\\.cursor\\mcp-servers\\mcp_servers\\unix-mcp-server-main\\config.json"
+    },
+    "description": "Airflow AVM process list/start/stop via unix-server SSH and remote curl"
+  }
+}
